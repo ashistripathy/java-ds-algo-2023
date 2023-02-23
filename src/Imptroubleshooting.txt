@@ -1,0 +1,21 @@
+Variable Name - ADSKFLEX_LICENSE_FILE
+Variable Value - @NLOUMFOPLIC021.corporateroot.net;@autodesklicense.corporateroot.net
+
+Variable Name- FNP_IP_PRIORITY
+Variable Value- 6
+
+\\NLOUMFOPFIS003.corporateroot.net\User_Data\RHDHV001502 - Adobe Acrobat Standard 2017 
+
+\\corporateroot\sccm\dp\
+Rhdhv template folder
+
+https://support.office.com/en-us/article/uninstall-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8 
+
+
+https://www.udemy.com/course/microsoft-azure-fundamentals-az-900/?couponCode=AZ-900-FREE  
+
+HP NL- 31205040646
+HP UK- 442079490416
+5CG70356ZB
+
+EMP ID: 1719326-1386044
