@@ -1,9 +1,11 @@
 package SevenEleven;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class ArmStrongCheck {
     public static void main(String [] args){
+        Stack stack = new Stack();
         System.out.println("Enter a number to check ArmStrong");
         Scanner sc  = new Scanner(System.in);
         int number = sc.nextInt();
