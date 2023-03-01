@@ -19,10 +19,10 @@ public class FindDuplicatesUsingStreams {
         List<Integer> numList = Arrays.asList(5,4,3,1,3,7,2,9,9,4);
         List<String> strList = Arrays.asList("Amanda","Rob","Amanda","Rob","Roy");
         /*Print repeated integer in a integer array with count*/
-        Map<Integer, Long> output = numList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        output.forEach((key,value)->{
+        numList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).forEach((key,value)->{
             System.out.println(key + " - " + value);
         });
+
         /*Print repeated string in a string array with count*/
         Map<String, Long> printData = strList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         printData.forEach((key,value)->{
