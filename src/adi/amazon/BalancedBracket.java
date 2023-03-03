@@ -10,7 +10,9 @@ public class BalancedBracket {
     private static boolean areBalancedBracket(String s) {
         //ArrayDeque will perform better
         Stack<Character> stack = new Stack<>();
+        //traversing the entered expression
         for(int i = 0;i<s.length();i++){
+            //fetching the 1st character in the string
             char x = s.charAt(i);
             if(x == '(' || x == '{' || x == '['){
                 stack.push(x);
