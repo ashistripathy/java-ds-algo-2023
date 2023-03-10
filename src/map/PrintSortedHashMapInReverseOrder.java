@@ -2,7 +2,7 @@ package map;
 
 import java.util.*;
 
-public class SortedHashMapByValues {
+public class PrintSortedHashMapInReverseOrder {
     public static void main(String [] args){
         //step 1 : create a hash map
         HashMap<String,Integer> map = new HashMap<>();
@@ -24,8 +24,10 @@ public class SortedHashMapByValues {
         //step 4 : create a LinkedHashMap to preserve the order of the sorted entries
         LinkedHashMap<String,Integer> sortedMap = new LinkedHashMap<>();
 
-        //step 5 : store entries in LinkedHashMap(add list iterator step to print sortedmap in reverse order)
-        for(Map.Entry<String,Integer> entry : list){
+        //step 5 :using list iterator to print the sortedMap in reverse order
+        ListIterator<Map.Entry<String,Integer>> iterator = list.listIterator(list.size());
+        while (iterator.hasPrevious()){
+            Map.Entry<String,Integer> entry = iterator.previous();
             sortedMap.put(entry.getKey(), entry.getValue());
         }
 
