@@ -43,5 +43,9 @@ public class CountEmptyStringsInArray {
         List<Integer> primes = Arrays.asList(2,3,5,7,11,13,17,19,23,29);
         IntSummaryStatistics result = primes.stream().mapToInt((x) -> x).summaryStatistics();
         System.out.println(result);
+
+        String str = "Hello, World!";
+
+        str.chars().filter(Character :: isLetter).map(Character :: toLowerCase).forEach(System.out::println);
     }
 }
