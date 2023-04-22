@@ -10,7 +10,8 @@ public class SecondLowestHighestNumber {
         List<Integer> list = Arrays.asList(0,3,10,20,30,15,1,13,1,2,2,10,40,19,3,40);
 
         //sec highest
-        Optional<Integer> secH = list.stream().sorted(Collections.reverseOrder()).distinct().limit(2).skip(1).findFirst();
+        Optional<Integer> secH = list.stream()
+                .sorted(Collections.reverseOrder()).distinct().limit(2).skip(1).findFirst();
         System.out.println(secH.get());
 
         //sec lowest

@@ -20,4 +20,5 @@ public class Permutation {
         String str = "abc";
         permutations(str).forEach(System.out::println);
     }
+
 }
