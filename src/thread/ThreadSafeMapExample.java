@@ -23,5 +23,16 @@ public class ThreadSafeMapExample {
         System.out.println("Alice's age: " + map.get("Alice"));
         System.out.println("Bob's age: " + map.get("Ashis"));
         System.out.println("Charlie's age: " + map.get("Charlie"));
+
+        /*Other Multithreading Concepts available
+        * Phaser
+        * Exchanger
+        * Future
+        * Executor
+        * ConcurrentLinkedQueue Done
+        * CopyOnWriteArrayList Done
+        * ForkJoin Framework */
+
+
     }
 }
