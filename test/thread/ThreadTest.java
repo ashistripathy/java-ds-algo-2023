@@ -1,6 +1,6 @@
-package thread;
+package test.thread;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
+
 
 import java.util.function.BiFunction;
 import java.util.stream.IntStream;

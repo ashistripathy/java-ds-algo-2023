@@ -1,4 +1,4 @@
-package adi.walmart;
+package test.adi.walmart;
 
 import java.util.stream.IntStream;
 import java.util.stream.Stream;

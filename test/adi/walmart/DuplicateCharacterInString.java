@@ -1,4 +1,4 @@
-package adi.walmart;
+package test.adi.walmart;
 
 import java.util.HashMap;
 import java.util.Map;

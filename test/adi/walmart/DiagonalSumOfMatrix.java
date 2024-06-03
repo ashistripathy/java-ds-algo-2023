@@ -1,4 +1,4 @@
-package adi.walmart;
+package test.adi.walmart;
 
 public class DiagonalSumOfMatrix {
     public static void main(String[] args) {

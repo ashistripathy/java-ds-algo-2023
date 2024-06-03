@@ -1,4 +1,4 @@
-package adi.amazon;
+package test.adi.amazon;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

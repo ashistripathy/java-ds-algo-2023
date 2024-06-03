@@ -1,4 +1,4 @@
-package linkedlist;
+package test.linkedlist;
 
 public class LinkedList {
     private static class Node{
